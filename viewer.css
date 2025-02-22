@@ -1983,7 +1983,7 @@ body {
   /* margin-right: 6px; */
   margin-left: -42px;
 
-  mask-image: url(images/menu-check.svg);
+  mask-image: url(./images/menu-check.svg);
   background: var(--toolbar-icon-bg-color);
   opacity: 0.85;
   width: 16px;
