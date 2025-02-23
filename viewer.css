@@ -2796,3 +2796,7 @@ margin: 0;
 #openFile {
   display: none;
 }
+
+#toolbarViewerRight {
+  display: none !important;
+}

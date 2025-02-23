@@ -21,6 +21,7 @@
   :root {
     --border: #333;
     --bg-secondary: #efefef;
+    --body-font-weight: 400;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -29,6 +30,7 @@
       --fg: #ccc;
       --border: #bbb;
       --bg-secondary: #333;
+      --body-font-weight: 300;
     }
   }
 
@@ -36,7 +38,8 @@
     height: 100%;
     background-color: var(--bg);
     color: var(--fg);
-    line-height: 1.4;
+    line-height: 1.5;
+    font-weight: var(--body-font-weight);
     font-size: calc(1rem + 0.15vw);
     padding: 20px;
   }
@@ -47,7 +50,6 @@
 
   .customFileUploadLabel {
     border: 2px solid var(--border);
-    font-family: "Georgia";
     padding: 6px 10px;
     cursor: pointer;
   }
